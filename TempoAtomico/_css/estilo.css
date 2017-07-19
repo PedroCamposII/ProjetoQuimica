@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/GloriaHallelujah.ttf");
+}
+/* BG V*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    line-height: 1.3;
+}
+.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background-size: cover; 
+}
+.inicio{
+    font-family: myFirstFont;
+    font-size: 44pt;
+    font-weight: bold;
+    margin-top: 22%;
+    text-shadow: 2px 2px 6px black;
+    color:white;
+}
+.clock-1{
+    width: 15%;
+    height:15%;
+}
+
+.ini{
+    margin-top: 1.2%;
+    font-family: MyFirstFont;
+    /*	text-transform: uppercase;
+    */	font-weight: bolder;
+    font-size: 18pt;
+    padding: 1%;
+    background-color: rgba(105,105,105,0.6);
+    color: #ffffff;
+    text-shadow:2px 2px 4px black;
+    border: none!important;
+}
+.ini:hover{
+    background-color:rgba(218,165,32,0.3);
+    color: white;
+    border:none!important;
+    transition: 1s;
+
+}
+.cadn{
+    width: 25%;
+    margin: 4% auto 2% auto;
+}
+.ok{
+    margin:0px auto 0px auto;
+}
+.sd{
+    width:300px!important;
+    display: block;
+
+}
+li{
+    display:inline-block;
+
+    width:300px!important;
+    height: 300px!important;
+    margin:0.3%;
+}
+.b{
+    width:10%;
+    height:100%;
+}
+button{
+    margin-top:2%;
+}
+.e{
+    box-shadow: 2px 2px 4px black;
+    border: none;
+    margin:4%;
+    background-color: rgba(135,135,135,0.7)
+}

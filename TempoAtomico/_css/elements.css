@@ -1,0 +1,16 @@
+.btn-bg-invsb{
+    border: 2px solid;
+    font-family: arial;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none!important;
+}
+a:hover{
+    color:white!important;
+}
