@@ -8,27 +8,15 @@
         <meta charset="UTF-8">
         <title></title>
         <link rel="stylesheet" type="text/css" href="_css/modal.css">
-        	<script type="text/javascript">
-		function validaRadio() {
-		  if (document.form1.tipoEndereco[2].checked == true) {
-		    window.location = "Animacao_2.html"
-		    return false;
-		  }else{
-			// alert('seu corno vc escolheu a opção errada - fdp');
-		  	window.location = "Dica_1.html"
-		  	return false;
-		  }
-		  return true;
-		}
-	</script> 
+        <scrip type="text/javascript" src="_js/script.js" ></scrip>
     </head>
     <body>
-        <img src="_img/856289-atom-minimalistic-science.jpg" class="bg_video">
+        <img src="_img/1.jpg" class="bg_video">
         <div class="container-fluid">
             <div>
                 <center>
                     
-                    <img src="_img/the-question-mark.png" class="img-thumbnail e" width="15%" height="15%"/>
+                    <img src="_img/the-question-mark.png" id="dtImg" class="img-thumbnail e" width="15%" height="15%"/>
                     <img src="_img/the-question-mark.png" class="img-thumbnail e" width="15%" height="15%"/>
                     <img src="_img/the-question-mark.png" class="img-thumbnail e" width="15%" height="15%"/>
                     <img src="_img/the-question-mark.png" class="img-thumbnail e" width="15%" height="15%"/>
@@ -42,9 +30,9 @@
                     <img src="_img/modelos/thomson.png" width="200px" height="200px" alt="...">
                     <div class="caption">
                        <center>
-                           <a href="#openModalthomson1"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                           <a href="#openModalthomson2"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                           <a href="#openModalthomson3"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
+                           <a href="#openModalthomson1"><button class="form-control " id="tsBtn1"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
+                           <a href="#openModalthomson2"><button class="form-control " id="tsBtn2"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
+                           <a href="#openModalthomson3"><button class="form-control " id="tsBtn3"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
                         </center>
                     </div>
                     </div>
@@ -54,9 +42,9 @@
                     <img src="_img/modelos/bohr.jpg" width="200px" height="200px" alt="...">
                     <div class="caption">
                         <center>
-                            <a href="#openModalbohr1"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                            <a href="#openModalbohr2"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                            <a href="#openModalbohr3"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
+                            <a href="#openModalbohr1"><button class="form-control" id="bhBtn1"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
+                            <a href="#openModalbohr2"><button class="form-control" id="bhBtn2"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
+                            <a href="#openModalbohr3"><button class="form-control" id="bhBtn3"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
                         </center>
                     </div>
                     </div>
@@ -66,9 +54,9 @@
                     <img src="_img/modelos/dalton.png" width="200px" height="200px" alt="...">
                     <div class="caption">
                        <center>
-                            <a href="#openModaldalton"><button type="button" class="form-control"><img src="_img/icone-cadeado.png" class="b" data-toggle="modal" data-target=".bs-example-modal-lg"></button></a>
-                            <a href="#openModaldalton2"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                            <a href="#openModaldalton3"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
+                            <a href="#openModaldalton"><button type="button" class="form-control" id="dtBtn1" ><img src="_img/small-lock-png-image-78015.png" class="b" id="dtBlocked1"></button></a>
+                            <a href="#openModaldalton2"><button class="form-control" id="dtBtn2"><img src="_img/small-lock-png-image-78015.png" class="b" id="dtBlocked2"></button></a>
+                            <a href="#openModaldalton3"><button class="form-control" id="dtBtn3"><img src="_img/small-lock-png-image-78015.png" class="b" id="dtBlocked3"></button></a>
                             <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                             <div class="modal-dialog modal-lg" role="document">
                             <div class="modal-content">
@@ -86,9 +74,9 @@
                     <div class="caption">
                         <!--<h3>Thumbnail label</h3>-->
                         <center>
-                            <a href="#openModalruther1"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                            <a href="#openModalruther2"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
-                            <a href="#openModalruther3"><button class="form-control"><img src="_img/icone-cadeado.png" class="b"></button></a>
+                            <a href="#openModalruther1"><button class="form-control" id="rfBtn1"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
+                            <a href="#openModalruther2"><button class="form-control" id="rfBtn2"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
+                            <a href="#openModalruther3"><button class="form-control" id="rfBtn3"><img src="_img/small-lock-png-image-78015.png" class="b"></button></a>
                         </center>
                     </div>
                     </div>
